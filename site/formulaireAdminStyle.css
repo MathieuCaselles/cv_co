@@ -1,0 +1,104 @@
+/* GENERAL */
+
+body
+{
+    display: flex;
+    background-image: url(image_index/background.jpg);
+    background-repeat: no-repeat;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: darkorchid;
+}
+
+h1{
+    font-size: 35px;
+}
+
+
+
+/*body*/
+
+.container
+{
+    width: 735px;
+    height: 926px;
+    margin-top: 0.5%;
+    text-align: center;
+    background-image: url(image_index/container.jpg);
+    background-size: cover;
+    color: black;
+    opacity: 0.93;
+    border: 1px solid;
+}
+
+/* nav */
+
+nav
+{
+    width: 318px;
+    height: 267px;
+    margin-left: 265px;
+    margin-right: 16px;
+    margin-top: 110px;
+}
+
+.menu
+{
+    width: 317px;
+    height: 51px;
+    padding-top: 18px;
+    font-size: 30px;
+    border: 1px solid;
+    text-align: center;
+    background-image: url(image_index/container.jpg);
+    background-size: cover;
+    opacity: 0.93;
+    color: #696969;
+}
+
+
+/* FORUMULAIRE */
+
+form {
+    margin: 0 auto;
+    width: 600px;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  input, textarea {
+
+    font: 1.1em arial;
+    width: 600px;
+    height: 45px;
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* Sert a surligner les bordure du textarea actif */
+    border-color: #000;
+  }
+  
+  textarea {
+    width: 600px;
+    height: 595px;
+  }
+  
+.button
+    {
+        float: right;
+        width: 151px;
+        height: 45px;
+        margin-right: 1em;
+        font-size: 1.2em;
+    }
